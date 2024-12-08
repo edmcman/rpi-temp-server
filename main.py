@@ -9,9 +9,9 @@ from secret import ssid, password
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 wlan.connect(ssid, password)
+pico_led.blink()
 while wlan.isconnected() == False:
     print('Waiting for connection...')
-    pico_led.blink()
     sleep(1)
 ip = wlan.ifconfig()[0]
 print(f'Connected on {ip}')
