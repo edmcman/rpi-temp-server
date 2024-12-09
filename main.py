@@ -1,4 +1,3 @@
-import json
 import uasyncio
 import network
 from time import sleep
@@ -6,18 +5,26 @@ from uAPI import uAPI, HTTPResponse
 from picozero import pico_temp_sensor, pico_led
 from secret import ssid, password
 
-wlan = network.WLAN(network.STA_IF)
-wlan.active(True)
-wlan.connect(ssid, password)
-pico_led.blink()
-while wlan.isconnected() == False:
-    print('Waiting for connection...')
-    sleep(1)
-ip = wlan.ifconfig()[0]
-print(f'Connected on {ip}')
+async def connect_to_wifi():    
+    wlan = network.WLAN(network.STA_IF)
+    wlan.active(True)
+    wlan.connect(ssid, password)
+    pico_led.blink()
+    while not wlan.isconnected():
+        print("Waiting for connection...")
+        await uasyncio.sleep(1)
+    print("Connected:", wlan.ifconfig())
+    pico_led.on()
+    return wlan
 
-# Turn on LED
-pico_led.on()
+async def monitor_wifi():
+    wlan = network.WLAN(network.STA_IF)
+
+    while True:
+        if not wlan.isconnected():
+            print("Wi-Fi disconnected! Reconnecting...")
+            await connect_to_wifi()
+        await uasyncio.sleep(5)
 
 api = uAPI(
     port=80,
@@ -41,8 +48,12 @@ def get_temp():
     }
     return HTTPResponse(data=response)
 
+async def main():
+    await connect_to_wifi()
+    monitor_task = uasyncio.create_task(monitor_wifi())
+    await api.run()
 try:
-    uasyncio.run(api.run())
+    uasyncio.run(main())
 except KeyboardInterrupt:
     print("Stopping")
     api.stop()
