@@ -9,5 +9,9 @@ wget -q 192.168.1.83/temp -O /dev/stdout
 
 At the time of writing (December 2024), the official uAPI repository had some bugs and did not work for me.  This project expects to be used with my fork of the uAPI repository, [edmcman/uAPI](https://github.com/edmcman/uAPI).
 
-To install it, I recommend using:
+## Install
+
+I recommend using:
 `pipkin --port /dev/ttyACM0 --install -r requirements.txt`.
+
+Then copy `main.py and `secret.py` to the Raspberry Pi Pico W.
