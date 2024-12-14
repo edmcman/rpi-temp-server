@@ -7,8 +7,7 @@ wget -q 192.168.1.83/temp -O /dev/stdout
 {"unit": "C", "temp": 30.78955}
 ```
 
-This works with https://github.com/edmcman/uAPI but I don't know how to actually
-install this using the latest micropython version.
+At the time of writing (December 2024), the official uAPI repository had some bugs and did not work for me.  This project expects to be used with my fork of the uAPI repository, [edmcman/uAPI](https://github.com/edmcman/uAPI).
 
-So I installed the main uAPI and then manually copied `application.py` which I
-changed.
+To install it, I recommend using:
+`pipkin --port /dev/ttyACM0 --install -r requirements.txt`.
