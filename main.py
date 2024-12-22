@@ -5,12 +5,14 @@ from uAPI import uAPI, HTTPResponse
 from picozero import pico_temp_sensor, pico_led
 from secret import ssid, password
 
-async def connect_to_wifi():    
+async def connect_to_wifi():
     wlan = network.WLAN(network.STA_IF)
+    wlan.config(trace=1)
+    wlan.config(pm=network.WLAN.PM_NONE)
     wlan.active(True)
     wlan.connect(ssid, password)
-    pico_led.blink()
     while not wlan.isconnected():
+        pico_led.blink()
         print("Waiting for connection...")
         await uasyncio.sleep(1)
     print("Connected:", wlan.ifconfig())
@@ -20,10 +22,19 @@ async def connect_to_wifi():
 async def monitor_wifi():
     wlan = network.WLAN(network.STA_IF)
 
+    c = 0
     while True:
+        c += 1
+        if c % 10 == 0:
+            print("Still checking Wi-Fi connection...")
+            print(f"Debug: connected: {wlan.isconnected()} status: {wlan.status()}")
+        pico_led.off()
+        await uasyncio.sleep(2)
         if not wlan.isconnected():
             print("Wi-Fi disconnected! Reconnecting...")
             await connect_to_wifi()
+        else:
+            pico_led.on()
         await uasyncio.sleep(5)
 
 api = uAPI(
