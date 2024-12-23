@@ -6,7 +6,7 @@ mpremote reset
 # kill mpremote on exit
 trap "kill -- -$$" EXIT
 
-URL="http://192.168.1.4"
+URL="http://192.168.1.4/temp"
 
 echo "test.bash: Waiting for the server to start"
 sleep 10
