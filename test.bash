@@ -19,5 +19,7 @@ do
   date
   echo "test.bash: Running wget"
   wget -q "$URL" -O /dev/stdout || break
+  # line break
+  echo ""
   n=$((n * 2))
 done
