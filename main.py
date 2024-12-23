@@ -33,7 +33,7 @@ async def monitor_wifi():
     c = 0
     while True:
         c += 1
-        if c % 10 == 0:
+        if c % 1000 == 0:
             print("Still checking Wi-Fi connection...")
             print(f"Debug: connected: {wlan.isconnected()} status: {wlan.status()}")
         pico_led.off()
