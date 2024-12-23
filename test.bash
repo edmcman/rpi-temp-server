@@ -18,8 +18,7 @@ do
   sleep $n
   date
   echo "test.bash: Running wget"
-  wget -q "$URL" -O /dev/stdout || break
-  # line break
-  echo ""
+  out=$(wget -q "$URL" -O /dev/stdout) || break
+  echo "test.bash: Response: $out"
   n=$((n * 2))
 done
