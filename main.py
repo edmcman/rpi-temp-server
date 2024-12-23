@@ -2,13 +2,21 @@ import uasyncio
 import network
 from time import sleep
 from uAPI import uAPI, HTTPResponse
+import os
 from picozero import pico_temp_sensor, pico_led
-from secret import ssid, password
+
+ssid = 'ssid'
+password = 'password'
+
+#pm=None for default power management
+pm=network.WLAN.PM_NONE
 
 async def connect_to_wifi():
+    pico_led.off()
     wlan = network.WLAN(network.STA_IF)
     wlan.config(trace=1)
-    wlan.config(pm=network.WLAN.PM_NONE)
+    if pm is not None: wlan.config(pm=pm)
+    print(f"Actual PM: {wlan.config('pm')}")
     wlan.active(True)
     wlan.connect(ssid, password)
     while not wlan.isconnected():
@@ -60,6 +68,7 @@ def get_temp():
     return HTTPResponse(data=response)
 
 async def main():
+    print(f"Starting server. OS: {os.uname()} PM: {pm}")
     await connect_to_wifi()
     monitor_task = uasyncio.create_task(monitor_wifi())
     await api.run()
