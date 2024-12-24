@@ -1,6 +1,11 @@
 #!/bin/bash
 
+PM="${1?Please specify the pm setting}"
+
 mpremote reset
+echo "Waiting for reset"
+sleep 10
+mpremote cp <(echo -n "$PM") :pm
 (mpremote run main.py | tee mp.log)&
 
 # kill mpremote on exit

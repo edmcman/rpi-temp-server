@@ -8,8 +8,7 @@ from picozero import pico_temp_sensor, pico_led
 ssid = 'verycreative-lr'
 password = '03141005'
 
-pm=None #for default power management
-#pm=network.WLAN.PM_NONE
+pm=eval(open("pm", "r").read().strip())
 
 async def connect_to_wifi():
     pico_led.off()
