@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #PM="${1?Please specify the pm setting}"
-MAX=3600
+MAX="${1:-3600}"
+echo "test.bash: MAX=$MAX"
 
 set -e
 
