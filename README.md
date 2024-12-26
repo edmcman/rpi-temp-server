@@ -12,6 +12,6 @@ At the time of writing (December 2024), the official uAPI repository had some bu
 ## Install
 
 I recommend using:
-`pipkin --port /dev/ttyACM0 --install -r requirements.txt`.
+`pipkin --port /dev/ttyACM0 install -r requirements.txt`.
 
-Then copy `main.py and `secret.py` to the Raspberry Pi Pico W.
+Then copy `main.py` and `secret.py` to the Raspberry Pi Pico W.
