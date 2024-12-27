@@ -19,10 +19,12 @@ async def connect_to_wifi():
     wlan.active(True)
     if pm is not None: wlan.config(pm=pm)
     wlan.connect(ssid, password)
-    while not wlan.isconnected():
-        pico_led.blink()
-        print("Waiting for connection...")
-        await uasyncio.sleep(1)
+    print("Trying to connect...")
+    pico_led.blink()
+    for i in range(5):
+        if wlan.isconnected(): break
+        print(f"Waiting for connection ({i}/5)...")
+        await uasyncio.sleep(5)
     print("Connected:", wlan.ifconfig())
     print(f"Actual PM: {hex(wlan.config('pm'))}")
     pico_led.on()
