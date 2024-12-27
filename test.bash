@@ -26,8 +26,8 @@ n=1
 while [ $n -le $MAX ]
 do
   echo "test.bash: Sleeping for $n seconds"
-  sleep $n
   date
+  sleep $n
   echo "test.bash: Running wget"
   out=$(wget -q "$URL" -O /dev/stdout) || (echo "test.bash: Failed at $n seconds"; false) || exit 1
   echo "test.bash: Response: $out"
