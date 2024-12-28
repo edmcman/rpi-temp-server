@@ -2,7 +2,8 @@
 
 #PM="${1?Please specify the pm setting}"
 MAX="${1:-3600}"
-echo "test.bash: MAX=$MAX"
+INIT="${2:-1}"
+echo "test.bash: INIT=$INIT MAX=$MAX"
 
 set -e
 
@@ -22,7 +23,7 @@ URL="http://192.168.1.4/temp"
 echo "test.bash: Waiting for the server to start"
 sleep 10
 
-n=1
+n="$INIT"
 while [ $n -le $MAX ]
 do
   echo "test.bash: Sleeping for $n seconds"
