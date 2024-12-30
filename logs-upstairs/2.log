@@ -1,0 +1,293 @@
+test.bash: INIT=1 MAX=3600
+test.bash: Waiting for reset
+test.bash: Waiting for the server to start
+Random selected PM: None
+Starting server. OS: (sysname='rp2', nodename='rp2', release='1.24.1', version='v1.24.1 on 2024-11-29 (GNU 13.2.0 MinSizeRel)', machine='Raspberry Pi Pico W with RP2040') PM: None
+Trying to connect...
+Waiting for connection (0/5)...
+[   14997] ASYNC(0000,ASSOC_REQ_IE,0,0,0)
+[   14997] ASYNC(0000,AUTH,0,0,0)
+[   15020] ASYNC(0000,ASSOC_RESP_IE,0,0,0)
+[   15020] ASYNC(0000,ASSOC,0,0,0)
+[   15020] ASYNC(0001,LINK,0,0,0)
+[   15053] ASYNC(0000,JOIN,0,0,0)
+[   15053] ASYNC(0000,SET_SSID,0,0,0)
+[   15465] ASYNC(0000,51,0,0,0)
+[   15780] ASYNC(0000,51,0,0,0)
+[   16008] ASYNC(0000,PSK_SUP,6,0,0)
+Connected: ('192.168.1.4', '255.255.255.0', '192.168.1.1', '192.168.1.1')
+Actual PM: 0xa11142
+test.bash: Sleeping for 1 seconds
+Current time: Sun Dec 29 10:46:13 PM EST 2024
+Sleeping until Sun Dec 29 10:46:14 PM EST 2024
+test.bash: Running wget
+1609459222	: GET /temp
+Console: Getting Temp...
+test.bash: Response: {"unit": "C", "temp": 34.0666}
+test.bash: Sleeping for 2 seconds
+Current time: Sun Dec 29 10:46:15 PM EST 2024
+Sleeping until Sun Dec 29 10:46:17 PM EST 2024
+test.bash: Running wget
+test.bash: Response: {"unit": "C", "temp": 34.0666}
+test.bash: Sleeping for 4 seconds
+1609459224	: GET /temp
+Console: Getting Temp...
+Current time: Sun Dec 29 10:46:17 PM EST 2024
+Sleeping until Sun Dec 29 10:46:21 PM EST 2024
+test.bash: Running wget
+1609459229	: GET /temp
+Console: Getting Temp...
+test.bash: Response: {"unit": "C", "temp": 34.0666}
+test.bash: Sleeping for 8 seconds
+Current time: Sun Dec 29 10:46:22 PM EST 2024
+Sleeping until Sun Dec 29 10:46:30 PM EST 2024
+test.bash: Running wget
+1609459237	: GET /temptest.bash: Response: {"unit": "C", "temp": 34.53471}
+
+Constest.bash: Sleeping for 16 seconds
+ole: Getting Temp...
+Current time: Sun Dec 29 10:46:30 PM EST 2024
+Sleeping until Sun Dec 29 10:46:46 PM EST 2024
+test.bash: Running wget
+1609459253	: GET /temp
+Console: Getting Temp...
+test.bash: Response: {"unit": "C", "temp": 34.53471}
+test.bash: Sleeping for 32 seconds
+Current time: Sun Dec 29 10:46:46 PM EST 2024
+Sleeping until Sun Dec 29 10:47:18 PM EST 2024
+test.bash: Running wget
+1609459286	: GET /temp
+Console: Getting Temp...
+test.bash: Response: {"unit": "C", "temp": 34.0666}
+test.bash: Sleeping for 64 seconds
+Current time: Sun Dec 29 10:47:19 PM EST 2024
+Sleeping until Sun Dec 29 10:48:23 PM EST 2024
+test.bash: Running wget
+1609459350	: GET /temp
+Console: Getting Temp...
+test.bash: Response: {"unit": "C", "temp": 34.0666}
+test.bash: Sleeping for 128 seconds
+Current time: Sun Dec 29 10:48:23 PM EST 2024
+Sleeping until Sun Dec 29 10:50:31 PM EST 2024
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+test.bash: Running wget
+1609459478	: GET /temp
+Console: Getting Temp...
+test.bash: Response: {"unit": "C", "temp": 34.0666}
+test.bash: Sleeping for 256 seconds
+Current time: Sun Dec 29 10:50:31 PM EST 2024
+Sleeping until Sun Dec 29 10:54:47 PM EST 2024
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+test.bash: Running wget
+1609459734	: GET /temp
+Console: Getting Temp...
+test.bash: Response: {"unit": "C", "temp": 33.59842}
+test.bash: Sleeping for 512 seconds
+Current time: Sun Dec 29 10:54:47 PM EST 2024
+Sleeping until Sun Dec 29 11:03:19 PM EST 2024
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+test.bash: Running wget
+1609460258	: GET /temp
+Console: Getting Temp...
+test.bash: Response: {"unit": "C", "temp": 32.19402}
+test.bash: Sleeping for 1024 seconds
+Current time: Sun Dec 29 11:03:31 PM EST 2024
+Sleeping until Sun Dec 29 11:20:35 PM EST 2024
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+[ 1967636] ASYNC(0000,49,0,0,0)
+[ 1967640] ASYNC(0000,49,0,0,0)
+[ 1967941] ASYNC(0000,49,0,0,0)
+[ 1968354] ASYNC(0000,49,0,0,0)
+[ 1969172] ASYNC(0000,49,0,0,0)
+[ 1970323] ASYNC(0000,49,0,0,0)
+Still checking Wi-Fi connection...
+Debug: connected: True status: 3
+Actual PM: 0xa11142
+[ 1971425] ASYNC(0000,49,0,0,0)
+[ 1973880] ASYNC(0000,49,0,0,0)
+[ 1974087] ASYNC(0000,49,0,0,0)
+[ 1974188] ASYNC(0000,49,0,0,0)
+[ 1974905] ASYNC(0000,49,0,0,0)
+[ 1979100] ASYNC(0000,49,0,0,0)
+[ 1979207] ASYNC(0000,49,0,0,0)
+[ 1980119] ASYNC(0000,49,0,0,0)
+[ 1980120] ASYNC(0000,49,0,0,0)
+[ 1980848] ASYNC(0000,49,0,0,0)
+[ 1984940] ASYNC(0000,49,0,0,0)
+[ 1986375] ASYNC(0000,49,0,0,0)
+[ 1988011] ASYNC(0000,49,0,0,0)
+[ 1989035] ASYNC(0000,49,0,0,0)
+[ 1990879] ASYNC(0000,49,0,0,0)
+[ 1992107] ASYNC(0000,49,0,0,0)
+[ 1994157] ASYNC(0000,49,0,0,0)
+[ 1994975] ASYNC(0000,49,0,0,0)
+[ 1996921] ASYNC(0000,49,0,0,0)
+[ 1997742] ASYNC(0000,49,0,0,0)
+[ 1997746] ASYNC(0000,49,0,0,0)
+[ 1999985] ASYNC(0000,49,0,0,0)
+[ 1999986] ASYNC(0000,49,0,0,0)
+[ 2000915] ASYNC(0000,49,0,0,0)
+[ 2003163] ASYNC(0000,49,0,0,0)
+[ 2003269] ASYNC(0000,49,0,0,0)
+[ 2004193] ASYNC(0000,49,0,0,0)
+[ 2004903] ASYNC(0000,49,0,0,0)
+[ 2005105] ASYNC(0000,49,0,0,0)
+[ 2005831] ASYNC(0000,49,0,0,0)
+[ 2006035] ASYNC(0000,49,0,0,0)
+[ 2006445] ASYNC(0000,49,0,0,0)
+[ 2006446] ASYNC(0000,49,0,0,0)
+[ 2007468] ASYNC(0000,49,0,0,0)
+[ 2008492] ASYNC(0000,49,0,0,0)
+[ 2009516] ASYNC(0000,49,0,0,0)
+[ 2009926] ASYNC(0000,49,0,0,0)
+[ 2013714] ASYNC(0000,49,0,0,0)
+[ 2014228] ASYNC(0000,49,0,0,0)
+[ 2015865] ASYNC(0000,49,0,0,0)
+[ 2016378] ASYNC(0000,49,0,0,0)
+[ 2019237] ASYNC(0000,49,0,0,0)
+[ 2019961] ASYNC(0000,49,0,0,0)
+[ 2020157] ASYNC(0000,49,0,0,0)
+[ 2021396] ASYNC(0000,49,0,0,0)
+[ 2024154] ASYNC(0000,49,0,0,0)
+[ 2024263] ASYNC(0000,49,0,0,0)
+[ 2024971] ASYNC(0000,49,0,0,0)
+[ 2025590] ASYNC(0000,49,0,0,0)
+[ 2025695] ASYNC(0000,49,0,0,0)
+[ 2025900] ASYNC(0000,49,0,0,0)
+[ 2026309] ASYNC(0000,49,0,0,0)
+[ 2027436] ASYNC(0000,49,0,0,0)
+[ 2027745] ASYNC(0000,49,0,0,0)
+[ 2027749] ASYNC(0000,49,0,0,0)
+[ 2028767] ASYNC(0000,49,0,0,0)
+[ 2029996] ASYNC(0000,49,0,0,0)
+[ 2029997] ASYNC(0000,49,0,0,0)
+[ 2030816] ASYNC(0000,49,0,0,0)
+[ 2031020] ASYNC(0000,49,0,0,0)
+[ 2031431] ASYNC(0000,49,0,0,0)
+[ 2033887] ASYNC(0000,49,0,0,0)
+[ 2035833] ASYNC(0000,49,0,0,0)
+[ 2039109] ASYNC(0000,49,0,0,0)
+[ 2039214] ASYNC(0000,49,0,0,0)
+[ 2040133] ASYNC(0000,49,0,0,0)
+[ 2041466] ASYNC(0000,49,0,0,0)
+[ 2044231] ASYNC(0000,49,0,0,0)
+[ 2044939] ASYNC(0000,49,0,0,0)
+[ 2045869] ASYNC(0000,49,0,0,0)
+[ 2046372] ASYNC(0000,49,0,0,0)
+[ 2046477] ASYNC(0000,49,0,0,0)
+[ 2046478] ASYNC(0000,49,0,0,0)
+[ 2049247] ASYNC(0000,49,0,0,0)
+[ 2049250] ASYNC(0000,49,0,0,0)
+[ 2049452] ASYNC(0000,49,0,0,0)
+[ 2049964] ASYNC(0000,49,0,0,0)
+[ 2050474] ASYNC(0000,49,0,0,0)
+[ 2050886] ASYNC(0000,49,0,0,0)
+[ 2051399] ASYNC(0000,49,0,0,0)
+[ 2052114] ASYNC(0000,49,0,0,0)
+[ 2054260] ASYNC(0000,49,0,0,0)
+[ 2054982] ASYNC(0000,49,0,0,0)
+[ 2055903] ASYNC(0000,49,0,0,0)
+[ 2056417] ASYNC(0000,49,0,0,0)
+[ 2056928] ASYNC(0000,49,0,0,0)
+[ 2057852] ASYNC(0000,49,0,0,0)
+[ 2057855] ASYNC(0000,49,0,0,0)
+[ 2058356] ASYNC(0000,49,0,0,0)
+[ 2058357] ASYNC(0000,49,0,0,0)
+[ 2058358] ASYNC(0000,49,0,0,0)
+[ 2058463] ASYNC(0000,49,0,0,0)
+[ 2059285] ASYNC(0000,49,0,0,0)
+[ 2059286] ASYNC(0000,49,0,0,0)
+[ 2059999] ASYNC(0000,49,0,0,0)
+[ 2060000] ASYNC(0000,49,0,0,0)
+[ 2060317] ASYNC(0000,49,0,0,0)
+[ 2060319] ASYNC(0000,49,0,0,0)
+[ 2060409] ASYNC(0000,49,0,0,0)
+[ 2060814] ASYNC(0000,49,0,0,0)
+[ 2061434] ASYNC(0000,49,0,0,0)
+[ 2064302] ASYNC(0000,49,0,0,0)
+[ 2064915] ASYNC(0000,49,0,0,0)
+[ 2065119] ASYNC(0000,49,0,0,0)
+[ 2065837] ASYNC(0000,49,0,0,0)
+[ 2066038] ASYNC(0000,49,0,0,0)
+[ 2066452] ASYNC(0000,49,0,0,0)
+[ 2066453] ASYNC(0000,49,0,0,0)
+[ 2066454] ASYNC(0000,49,0,0,0)
+[ 2066553] ASYNC(0000,49,0,0,0)
+[ 2067474] ASYNC(0000,49,0,0,0)
+[ 2069934] ASYNC(0000,49,0,0,0)
+[ 2069935] ASYNC(0000,49,0,0,0)
+[ 2070854] ASYNC(0000,49,0,0,0)
+[ 2070956] ASYNC(0000,49,0,0,0)
+[ 2071161] ASYNC(0000,49,0,0,0)
+[ 2071465] ASYNC(0000,49,0,0,0)
+[ 2071980] ASYNC(0000,49,0,0,0)
+[ 2074233] ASYNC(0000,49,0,0,0)
+[ 2074236] ASYNC(0000,49,0,0,0)
+[ 2075872] ASYNC(0000,49,0,0,0)
+[ 2078022] ASYNC(0000,49,0,0,0)
+[ 2078631] ASYNC(0000,49,0,0,0)
+[ 2079252] ASYNC(0000,49,0,0,0)
+[ 2079963] ASYNC(0000,49,0,0,0)
+[ 2080172] ASYNC(0000,49,0,0,0)
+[ 2080173] ASYNC(0000,49,0,0,0)
+[ 2080889] ASYNC(0000,49,0,0,0)
+[ 2081191] ASYNC(0000,49,0,0,0)
+test.bash: Running wget
+[ 2081402] ASYNC(0000,49,0,0,0)
+[ 2083142] ASYNC(0000,49,0,0,0)
+[ 2084979] ASYNC(0000,49,0,0,0)
+[ 2085899] ASYNC(0000,49,0,0,0)
+[ 2086420] ASYNC(0000,49,0,0,0)
+[ 2086521] ASYNC(0000,49,0,0,0)
+[ 2087957] ASYNC(0000,49,0,0,0)
+[ 2087961] ASYNC(0000,49,0,0,0)
+[ 2088774] ASYNC(0000,49,0,0,0)
+[ 2089288] ASYNC(0000,49,0,0,0)
+[ 2090005] ASYNC(0000,49,0,0,0)
+[ 2090310] ASYNC(0000,49,0,0,0)
+[ 2090412] ASYNC(0000,49,0,0,0)
+[ 2090822] ASYNC(0000,49,0,0,0)
+[ 2091436] ASYNC(0000,49,0,0,0)
+[ 2091438] ASYNC(0000,49,0,0,0)
+[ 2092460] ASYNC(0000,49,0,0,0)
+[ 2092562] ASYNC(0000,49,0,0,0)
+[ 2093894] ASYNC(0000,49,0,0,0)
+[ 2094305] ASYNC(0000,49,0,0,0)
+[ 2094610] ASYNC(0000,49,0,0,0)
+[ 2094918] ASYNC(0000,49,0,0,0)
+test.bash: Failed at 1024 seconds

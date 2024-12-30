@@ -1,0 +1,16 @@
+test.bash: INIT=1 MAX=3600
+test.bash: Waiting for reset
+test.bash: Waiting for the server to start
+Random selected PM: network.WLAN.PM_PERFORMANCE
+Starting server. OS: (sysname='rp2', nodename='rp2', release='1.24.1', version='v1.24.1 on 2024-11-29 (GNU 13.2.0 MinSizeRel)', machine='Raspberry Pi Pico W with RP2040') PM: 10555714
+Trying to connect...
+Waiting for connection (0/5)...
+[   15305] ASYNC(0000,AUTH,2,0,0)
+[   15306] ASYNC(0000,SET_SSID,1,0,0)
+Waiting for connection (1/5)...
+test.bash: Sleeping for 1 seconds
+Current time: Sun Dec 29 11:21:09 PM EST 2024
+Sleeping until Sun Dec 29 11:21:10 PM EST 2024
+test.bash: Running wget
+Waiting for connection (2/5)...
+test.bash: Failed at 1 seconds
