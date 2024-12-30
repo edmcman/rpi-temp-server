@@ -1,0 +1,227 @@
+test.bash: INIT=1 MAX=86400
+test.bash: Waiting for the server to start
+test.bash: Sleeping for 1 seconds
+Current time: Sun Dec 29 01:50:06 PM EST 2024
+Sleeping until Sun Dec 29 01:50:07 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 224 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 2 seconds
+Current time: Sun Dec 29 01:50:07 PM EST 2024
+Sleeping until Sun Dec 29 01:50:09 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 226 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 4 seconds
+Current time: Sun Dec 29 01:50:10 PM EST 2024
+Sleeping until Sun Dec 29 01:50:14 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 230 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 8 seconds
+Current time: Sun Dec 29 01:50:14 PM EST 2024
+Sleeping until Sun Dec 29 01:50:22 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 238 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 16 seconds
+Current time: Sun Dec 29 01:50:22 PM EST 2024
+Sleeping until Sun Dec 29 01:50:38 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 254 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 32 seconds
+Current time: Sun Dec 29 01:50:38 PM EST 2024
+Sleeping until Sun Dec 29 01:51:10 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 287 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 64 seconds
+Current time: Sun Dec 29 01:51:10 PM EST 2024
+Sleeping until Sun Dec 29 01:52:14 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 351 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 128 seconds
+Current time: Sun Dec 29 01:52:14 PM EST 2024
+Sleeping until Sun Dec 29 01:54:22 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 479 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 256 seconds
+Current time: Sun Dec 29 01:54:22 PM EST 2024
+Sleeping until Sun Dec 29 01:58:38 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 735 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 512 seconds
+Current time: Sun Dec 29 01:58:38 PM EST 2024
+Sleeping until Sun Dec 29 02:07:10 PM EST 2024
+test.bash: Running wget
+test.bash: Response: <html>
+<head>
+    <title>Pico httpd example</title>
+</head>
+<body>
+    <h1>Pico httpd example</h1>
+    <p><img src="/img/rpi.png"/></p>
+    <p>Hello from Pico</p>
+    <p>Uptime is 1258 seconds</p>
+    <p><a href="/?test">CGI handler test</a></p>
+    <p>
+        <form action="/led.cgi" method="post">
+            <input type="hidden" name="led_state" value="OFF">
+            <input type="submit" value="Turn led OFF">
+        </form>
+    </p>
+</body>
+</html>
+test.bash: Sleeping for 1024 seconds
+Current time: Sun Dec 29 02:07:21 PM EST 2024
+Sleeping until Sun Dec 29 02:24:25 PM EST 2024
+test.bash: Running wget
+test.bash: Failed at 1024 seconds
