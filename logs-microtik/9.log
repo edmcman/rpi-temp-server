@@ -1,0 +1,198 @@
+Dec 30 18:11:50 test.bash: INIT=1 MAX=3600
+Dec 30 18:11:50 test.bash: Waiting for reset
+Dec 30 18:12:00 test.bash: Waiting for the server to start
+Dec 30 18:12:02 Random selected PM: None
+Dec 30 18:12:02 Starting server. OS: (sysname='rp2', nodename='rp2', release='1.24.1', version='v1.24.1 on 2024-11-29 (GNU 13.2.0 MinSizeRel)', machine='Raspberry Pi Pico W with RP2040') PM: None
+Dec 30 18:12:03 Trying to connect...
+Dec 30 18:12:03 Waiting for connection (0/5)...
+Dec 30 18:12:06 [   14993] ASYNC(0000,ASSOC_REQ_IE,0,0,0)
+Dec 30 18:12:06 [   14993] ASYNC(0000,AUTH,0,0,0)
+Dec 30 18:12:06 [   15002] ASYNC(0000,ASSOC_RESP_IE,0,0,0)
+Dec 30 18:12:06 [   15002] ASYNC(0000,ASSOC,0,0,0)
+Dec 30 18:12:06 [   15003] ASYNC(0001,LINK,0,0,0)
+Dec 30 18:12:06 [   15014] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:12:06 [   15101] ASYNC(0000,JOIN,0,0,0)
+Dec 30 18:12:06 [   15101] ASYNC(0000,SET_SSID,0,0,0)
+Dec 30 18:12:08 Connected: ('192.168.1.4', '255.255.255.0', '192.168.1.1', '192.168.1.1')
+Dec 30 18:12:08 Actual PM: 0xa11142
+Dec 30 18:12:10 test.bash: Sleeping for 1 seconds
+Dec 30 18:12:10 Current time: Mon Dec 30 06:12:10 PM EST 2024
+Dec 30 18:12:10 Sleeping until Mon Dec 30 06:12:11 PM EST 2024
+Dec 30 18:12:11 test.bash: Running wget
+Dec 30 18:12:12 1609459222	: GET /temp
+Dec 30 18:12:12 Console: Getting Temp...
+Dec 30 18:12:12 test.bash: Response: {"unit": "C", "temp": 34.53471}
+Dec 30 18:12:12 test.bash: Sleeping for 2 seconds
+Dec 30 18:12:12 Current time: Mon Dec 30 06:12:12 PM EST 2024
+Dec 30 18:12:12 Sleeping until Mon Dec 30 06:12:14 PM EST 2024
+Dec 30 18:12:14 test.bash: Running wget
+Dec 30 18:12:14 test.bash: Response: {"unit": "C", "temp": 34.0666}
+Dec 30 18:12:14 test.bash: Sleeping for 4 seconds
+Dec 30 18:12:14 Current time: Mon Dec 30 06:12:14 PM EST 2024
+Dec 30 18:12:14 1609459224	: GET /temp
+Dec 30 18:12:14 Console: Getting Temp...
+Dec 30 18:12:14 Sleeping until Mon Dec 30 06:12:18 PM EST 2024
+Dec 30 18:12:18 test.bash: Running wget
+Dec 30 18:12:18 test.bash: Response: {"unit": "C", "temp": 34.0666}
+Dec 30 18:12:18 test.bash: Sleeping for 8 seconds
+Dec 30 18:12:18 Current time: Mon Dec 30 06:12:18 PM EST 2024
+Dec 30 18:12:18 1609459228	: GET /temp
+Dec 30 18:12:18 Console: Getting Temp...
+Dec 30 18:12:18 Sleeping until Mon Dec 30 06:12:26 PM EST 2024
+Dec 30 18:12:26 test.bash: Running wget
+Dec 30 18:12:26 1609459236	: GET /temp
+Dec 30 18:12:26 Console: Getting Temp...
+Dec 30 18:12:26 test.bash: Response: {"unit": "C", "temp": 34.0666}
+Dec 30 18:12:26 test.bash: Sleeping for 16 seconds
+Dec 30 18:12:26 Current time: Mon Dec 30 06:12:26 PM EST 2024
+Dec 30 18:12:26 Sleeping until Mon Dec 30 06:12:42 PM EST 2024
+Dec 30 18:12:42 test.bash: Running wget
+Dec 30 18:12:42 1609459252	: GET /temp
+Dec 30 18:12:42 Console: Getting Temp...
+Dec 30 18:12:42 test.bash: Response: {"unit": "C", "temp": 34.53471}
+Dec 30 18:12:42 test.bash: Sleeping for 32 seconds
+Dec 30 18:12:42 Current time: Mon Dec 30 06:12:42 PM EST 2024
+Dec 30 18:12:42 Sleeping until Mon Dec 30 06:13:14 PM EST 2024
+Dec 30 18:13:14 test.bash: Running wget
+Dec 30 18:13:14 1609459284	: GET /temp
+Dec 30 18:13:14 Console: Getting Temp...
+Dec 30 18:13:14 test.bash: Response: {"unit": "C", "temp": 34.53471}
+Dec 30 18:13:14 test.bash: Sleeping for 64 seconds
+Dec 30 18:13:14 Current time: Mon Dec 30 06:13:14 PM EST 2024
+Dec 30 18:13:14 Sleeping until Mon Dec 30 06:14:18 PM EST 2024
+Dec 30 18:14:18 test.bash: Running wget
+Dec 30 18:14:19 1609459349	: GET /temp
+Dec 30 18:14:19 Console: Getting Temp...
+Dec 30 18:14:19 test.bash: Response: {"unit": "C", "temp": 34.53471}
+Dec 30 18:14:19 test.bash: Sleeping for 128 seconds
+Dec 30 18:14:19 Current time: Mon Dec 30 06:14:19 PM EST 2024
+Dec 30 18:14:19 Sleeping until Mon Dec 30 06:16:27 PM EST 2024
+Dec 30 18:14:21 Still checking Wi-Fi connection...
+Dec 30 18:14:21 Debug: connected: True status: 3
+Dec 30 18:14:21 Actual PM: 0xa11142
+Dec 30 18:16:16 [  265506] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:16:27 test.bash: Running wget
+Dec 30 18:16:27 1609459477	: GET /temp
+Dec 30 18:16:27 Console: Getting Temp...
+Dec 30 18:16:27 test.bash: Response: {"unit": "C", "temp": 34.53471}
+Dec 30 18:16:27 test.bash: Sleeping for 256 seconds
+Dec 30 18:16:27 Current time: Mon Dec 30 06:16:27 PM EST 2024
+Dec 30 18:16:27 Sleeping until Mon Dec 30 06:20:43 PM EST 2024
+Dec 30 18:16:41 Still checking Wi-Fi connection...
+Dec 30 18:16:41 Debug: connected: True status: 3
+Dec 30 18:16:41 Actual PM: 0xa11142
+Dec 30 18:19:01 Still checking Wi-Fi connection...
+Dec 30 18:19:01 Debug: connected: True status: 3
+Dec 30 18:19:01 Actual PM: 0xa11142
+Dec 30 18:20:43 test.bash: Running wget
+Dec 30 18:20:43 1609459733	: GET /temp
+Dec 30 18:20:43 Console: Getting Temp...
+Dec 30 18:20:43 test.bash: Response: {"unit": "C", "temp": 34.0666}
+Dec 30 18:20:43 test.bash: Sleeping for 512 seconds
+Dec 30 18:20:43 Current time: Mon Dec 30 06:20:43 PM EST 2024
+Dec 30 18:20:43 Sleeping until Mon Dec 30 06:29:15 PM EST 2024
+Dec 30 18:21:16 [  565513] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:21:21 Still checking Wi-Fi connection...
+Dec 30 18:21:21 Debug: connected: True status: 3
+Dec 30 18:21:21 Actual PM: 0xa11142
+Dec 30 18:23:41 Still checking Wi-Fi connection...
+Dec 30 18:23:41 Debug: connected: True status: 3
+Dec 30 18:23:41 Actual PM: 0xa11142
+Dec 30 18:26:01 Still checking Wi-Fi connection...
+Dec 30 18:26:01 Debug: connected: True status: 3
+Dec 30 18:26:01 Actual PM: 0xa11142
+Dec 30 18:26:16 [  865548] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:28:21 Still checking Wi-Fi connection...
+Dec 30 18:28:21 Debug: connected: True status: 3
+Dec 30 18:28:21 Actual PM: 0xa11142
+Dec 30 18:29:15 test.bash: Running wget
+Dec 30 18:29:15 1609460245	: GET /temp
+Dec 30 18:29:15 Console: Getting Temp...
+Dec 30 18:29:15 test.bash: Response: {"unit": "C", "temp": 32.19402}
+Dec 30 18:29:15 test.bash: Sleeping for 1024 seconds
+Dec 30 18:29:15 Current time: Mon Dec 30 06:29:15 PM EST 2024
+Dec 30 18:29:15 Sleeping until Mon Dec 30 06:46:19 PM EST 2024
+Dec 30 18:30:41 Still checking Wi-Fi connection...
+Dec 30 18:30:41 Debug: connected: True status: 3
+Dec 30 18:30:41 Actual PM: 0xa11142
+Dec 30 18:31:16 [ 1165584] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:33:01 Still checking Wi-Fi connection...
+Dec 30 18:33:01 Debug: connected: True status: 3
+Dec 30 18:33:01 Actual PM: 0xa11142
+Dec 30 18:35:21 Still checking Wi-Fi connection...
+Dec 30 18:35:21 Debug: connected: True status: 3
+Dec 30 18:35:21 Actual PM: 0xa11142
+Dec 30 18:36:16 [ 1465521] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:37:41 Still checking Wi-Fi connection...
+Dec 30 18:37:41 Debug: connected: True status: 3
+Dec 30 18:37:41 Actual PM: 0xa11142
+Dec 30 18:40:02 Still checking Wi-Fi connection...
+Dec 30 18:40:02 Debug: connected: True status: 3
+Dec 30 18:40:02 Actual PM: 0xa11142
+Dec 30 18:41:16 [ 1765553] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:42:22 Still checking Wi-Fi connection...
+Dec 30 18:42:22 Debug: connected: True status: 3
+Dec 30 18:42:22 Actual PM: 0xa11142
+Dec 30 18:44:42 Still checking Wi-Fi connection...
+Dec 30 18:44:42 Debug: connected: True status: 3
+Dec 30 18:44:42 Actual PM: 0xa11142
+Dec 30 18:46:16 [ 2065590] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:46:19 test.bash: Running wget
+Dec 30 18:46:19 1609461269	: GET /temp
+Dec 30 18:46:19 Ctest.bash: Response: {"unit": "C", "temp": 31.2577}
+Dec 30 18:46:19 onsoltest.bash: Sleeping for 2048 seconds
+Dec 30 18:46:19 e: Getting Temp...
+Dec 30 18:46:19 Current time: Mon Dec 30 06:46:19 PM EST 2024
+Dec 30 18:46:19 Sleeping until Mon Dec 30 07:20:27 PM EST 2024
+Dec 30 18:47:02 Still checking Wi-Fi connection...
+Dec 30 18:47:02 Debug: connected: True status: 3
+Dec 30 18:47:02 Actual PM: 0xa11142
+Dec 30 18:49:22 Still checking Wi-Fi connection...
+Dec 30 18:49:22 Debug: connected: True status: 3
+Dec 30 18:49:22 Actual PM: 0xa11142
+Dec 30 18:51:16 [ 2365525] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:51:42 Still checking Wi-Fi connection...
+Dec 30 18:51:42 Debug: connected: True status: 3
+Dec 30 18:51:42 Actual PM: 0xa11142
+Dec 30 18:54:02 Still checking Wi-Fi connection...
+Dec 30 18:54:02 Debug: connected: True status: 3
+Dec 30 18:54:02 Actual PM: 0xa11142
+Dec 30 18:56:16 [ 2665523] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 18:56:22 Still checking Wi-Fi connection...
+Dec 30 18:56:22 Debug: connected: True status: 3
+Dec 30 18:56:22 Actual PM: 0xa11142
+Dec 30 18:58:42 Still checking Wi-Fi connection...
+Dec 30 18:58:42 Debug: connected: True status: 3
+Dec 30 18:58:42 Actual PM: 0xa11142
+Dec 30 19:01:02 Still checking Wi-Fi connection...
+Dec 30 19:01:02 Debug: connected: True status: 3
+Dec 30 19:01:02 Actual PM: 0xa11142
+Dec 30 19:01:16 [ 2965529] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 19:03:22 Still checking Wi-Fi connection...
+Dec 30 19:03:22 Debug: connected: True status: 3
+Dec 30 19:03:22 Actual PM: 0xa11142
+Dec 30 19:05:42 Still checking Wi-Fi connection...
+Dec 30 19:05:42 Debug: connected: True status: 3
+Dec 30 19:05:42 Actual PM: 0xa11142
+Dec 30 19:06:16 [ 3265520] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 19:08:02 Still checking Wi-Fi connection...
+Dec 30 19:08:02 Debug: connected: True status: 3
+Dec 30 19:08:02 Actual PM: 0xa11142
+Dec 30 19:10:22 Still checking Wi-Fi connection...
+Dec 30 19:10:22 Debug: connected: True status: 3
+Dec 30 19:10:22 Actual PM: 0xa11142
+Dec 30 19:11:16 [ 3565524] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 19:12:43 Still checking Wi-Fi connection...
+Dec 30 19:12:43 Debug: connected: True status: 3
+Dec 30 19:12:43 Actual PM: 0xa11142
+Dec 30 19:15:03 Still checking Wi-Fi connection...
+Dec 30 19:15:03 Debug: connected: True status: 3
+Dec 30 19:15:03 Actual PM: 0xa11142
+Dec 30 19:16:16 [ 3865601] ASYNC(0000,PSK_SUP,6,0,0)
+Dec 30 19:17:23 Still checking Wi-Fi connection...
+Dec 30 19:17:23 Debug: connected: True status: 3
+Dec 30 19:17:23 Actual PM: 0xa11142
+Dec 30 19:19:43 Still checking Wi-Fi connection...
+Dec 30 19:19:43 Debug: connected: True status: 3
+Dec 30 19:19:43 Actual PM: 0xa11142
+Dec 30 19:20:27 test.bash: Running wget
