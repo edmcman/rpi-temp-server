@@ -5,7 +5,7 @@ import os
 from picozero import pico_temp_sensor, pico_led
 import random
 
-ssid = 'verycreative-lr'
+ssid = 'verycreative-office'
 password = '03141005'
 
 pms = random.choice(["None", "0xa11140", "network.WLAN.PM_NONE", "network.WLAN.PM_PERFORMANCE", "network.WLAN.PM_POWERSAVE"])
